@@ -1,7 +1,5 @@
-<h1 align="center">
-	<img id="logo" src="https://i.imgur.com/999HLpk.png" width="150"/>
-	<br>
-	Construct Library
+<p align="center"><img id="logo" src="https://i.imgur.com/999HLpk.png" width="150"/></p>
+<h1 align="center">Construct Library<br>
 </h1>
 
 ## Adding Lombok
