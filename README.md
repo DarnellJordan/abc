@@ -2,6 +2,10 @@
 <h1 align="center">Construct Library<br>
 </h1>
 
+<script>
+  alert("hi");
+  </script>
+
 ## Adding Lombok
 
 This is just a reminder for me. Nothing final yet.
