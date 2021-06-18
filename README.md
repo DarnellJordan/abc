@@ -1,5 +1,4 @@
 <h1 align="center">
-	<br>
 	<img id="logo" src="https://i.imgur.com/999HLpk.png" width="150"/>
 	<br>
 	Construct Library
