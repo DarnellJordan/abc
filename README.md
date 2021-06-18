@@ -2,7 +2,6 @@
 	<br>
 	<img id="logo" src="https://i.imgur.com/999HLpk.png" width="150"/>
 	<br>
-	<br>
 	Construct Library
 </h1>
 
