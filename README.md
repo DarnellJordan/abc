@@ -1,7 +1,10 @@
 <p align="center"><img id="logo" src="https://i.imgur.com/999HLpk.png" width="150"/></p>
 <h1 align="center">Construct Library<br>
   <br>
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/microsoft/cascadia-code?label=Release&style=flat-square">
+  <a href="https://github.com/psyGamer/abc/releases"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/microsoft/cascadia-code?label=Release&style=flat-square"></a>
+  
+  [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+  
 </h1>
 
 ## Adding Lombok
