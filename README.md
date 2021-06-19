@@ -1,10 +1,8 @@
 <p align="center"><img id="logo" src="https://i.imgur.com/999HLpk.png" width="150"/></p>
 <h1 align="center">Construct Library<br>
+  <br>
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/microsoft/cascadia-code?label=Release&style=flat-square">
 </h1>
-
-<script>
-  alert("hi");
-  </script>
 
 ## Adding Lombok
 
