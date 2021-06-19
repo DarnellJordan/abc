@@ -5,7 +5,7 @@
   <br>
   <a><img alt="Lastest commit" src="https://img.shields.io/github/last-commit/psygamer/construct-library?label=Latest%20commit&style=for-the-badge"></a>
   <br>
-  <a href="https://github.com/psyGamer/Construct-Library/LICENSE"><img alt="License" src="https://img.shields.io/github/license/psyGamer/Construct-Library?color=orange&style=for-the-badge"></a>
+  <a href="https://github.com/psyGamer/Construct-Library/blob/dev/lib/LICENSE"><img alt="License" src="https://img.shields.io/github/license/psyGamer/Construct-Library?color=orange&style=for-the-badge"></a>
 </h1>
 
 ## Adding Lombok
