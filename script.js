@@ -1,17 +1,3 @@
-const backgroundColor = "#1C1C1C"
-
-document.body.append(`
-<style>
-	body {
-		background-color: ${backgroundColor}; 
-	}
-	
-	body * {
-		display:none;
-	}
-</style>
-`)
-
 window.addEventListener('load', () => {
 	const pageElements = [...document.querySelector(".markdown-body").children].slice(2);
 

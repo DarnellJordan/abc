@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,gFAAI;AAMZ,AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,KAAK;EAEhB,KAAK,EAPO,OAAO;EAQnB,gBAAgB,EAPE,OAAO;CAOa;;AACvC,AAAA,CAAC,CAAC;EACD,UAAU,EAAE,UAAU;CAAG;;ADX1B,AAAA,IAAI,CAAC;EACJ,gBAAgB,ECCE,OAAO;CDEN;;AAJpB,AAGC,IAHG,CAGH,CAAC,CAAC;EACD,OAAO,EAAE,IAAI;CAAG",
+    "sources": [
+        "default.sass",
+        "../pureDoc/common.sass"
+    ],
+    "names": [],
+    "file": "default.css"
+}
