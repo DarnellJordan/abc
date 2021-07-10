@@ -1,3 +1,3 @@
-<script defer src="script.js"></script>
+<script src="script.js"></script>
 
 # grüzi mitanand
