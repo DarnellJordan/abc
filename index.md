@@ -1,3 +1,3 @@
-<script defer>alert("hello")</script>
+<script defer src="script.js"></script>
 
 # grüzi mitanand
