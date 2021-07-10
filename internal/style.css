@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 html {
   font-family: Nunito;
   font-size: 66.5%;
@@ -202,6 +203,144 @@ table td {
   border-left: solid #2f2f2f 1px;
   border-top: solid #2f2f2f 1px;
   padding: 0.3rem;
+}
+
+html {
+  font-family: Nunito;
+  font-size: 66.5%;
+  color: #FFFFFF;
+  background-color: #1C1C1C;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+pre.inline-code,
+pre.block-code {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+pre.inline-code code,
+pre.block-code code {
+  display: inline-block;
+  font-family: Cascadia Code;
+  background: #141414;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+}
+
+pre.inline-code clipboard-copy,
+pre.block-code clipboard-copy {
+  height: 2.3rem;
+  width: 2.3rem;
+  background-color: #0f0f0f;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background-color .1s;
+  transition: background-color .1s;
+  z-index: 2;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+}
+
+pre.inline-code clipboard-copy::after,
+pre.block-code clipboard-copy::after {
+  content: "Copied";
+  opacity: 0;
+  position: absolute;
+  font-size: 1rem;
+  font-family: Nunito;
+  text-align: center;
+  padding: .35em;
+  border-radius: 0.33333rem;
+  background: #0f0f0f;
+  -webkit-transform: translateY(-1.25rem);
+          transform: translateY(-1.25rem);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+pre.inline-code clipboard-copy.copy-popup::after,
+pre.block-code clipboard-copy.copy-popup::after {
+  opacity: 1;
+  -webkit-transform: translateY(-2.5rem);
+          transform: translateY(-2.5rem);
+}
+
+pre.inline-code clipboard-copy:hover, pre.inline-code clipboard-copy:focus,
+pre.block-code clipboard-copy:hover,
+pre.block-code clipboard-copy:focus {
+  background-color: #2a2a2a;
+}
+
+pre.inline-code clipboard-copy:active,
+pre.block-code clipboard-copy:active {
+  background-color: #464646;
+}
+
+pre.inline-code clipboard-copy img,
+pre.block-code clipboard-copy img {
+  height: 1.725rem;
+  width: 1.725rem;
+}
+
+pre.inline-code {
+  margin-right: 2.5rem;
+  height: 2.3rem;
+}
+
+pre.inline-code code {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+pre.inline-code clipboard-copy {
+  bottom: 0;
+  right: 0;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+pre.block-code {
+  display: block;
+  position: relative;
+}
+
+pre.block-code code {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+pre.block-code clipboard-copy {
+  top: .75rem;
+  right: .75rem;
+  position: absolute;
+  border-radius: 0.5rem;
+}
+
+.hljs {
+  overflow-x: auto;
+  padding: .5em;
 }
 
 /* Highlight.js Theme */
