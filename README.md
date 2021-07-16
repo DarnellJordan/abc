@@ -1,4 +1,4 @@
-<p align="center"><img id="logo" src="https://i.imgur.com/999HLpk.png" width="150"/></p>
+<p align="center"><img id="logo" src="https://media.forgecdn.net/avatars/thumbnails/406/692/64/64/637620419064141570.png" width="150"/></p>
 <h1 align="center">Construct Library<br>
   <br>
   <a><img alt="Lastest commit" src="https://img.shields.io/github/last-commit/psyGamer/Construct-Library?label=Latest%20commit&style=for-the-badge"></a>
