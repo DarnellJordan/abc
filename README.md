@@ -16,3 +16,5 @@ and [3fafa80](https://github.com/psyGamer/Anvil/commit/12bf5444a6a0d784cad79ef41
 Add lombok.jar to <project-root>/libs
 
 Add lombok as library under project structure to all
+
+![Anurag's GitHub stats](http://github-readme-stats.vercel.app/api?username=psyGamer&hide_border=true&show_icons=true&locale=de&theme=dark)
